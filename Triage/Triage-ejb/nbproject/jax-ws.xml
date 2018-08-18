@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jax-ws xmlns="http://www.netbeans.org/ns/jax-ws/1">
+  <services>
+    <service name="UserWS">
+      <implementation-class>com.utng.ws.webservice.UserWS</implementation-class>
+    </service>
+    <service name="Usuario">
+      <implementation-class>com.utng.ws.webservice.Usuario</implementation-class>
+    </service>
+    <service name="LeyendaWS">
+      <implementation-class>com.utng.ws.webservice.LeyendaWS</implementation-class>
+    </service>
+    <service name="DiseaseWS">
+      <implementation-class>com.utng.ws.webservice.DiseaseWS</implementation-class>
+    </service>
+    <service name="LevelWS">
+      <implementation-class>com.utng.ws.webservice.LevelWS</implementation-class>
+    </service>
+    <service name="PacienteWS">
+      <implementation-class>com.utng.ws.webservice.PacienteWS</implementation-class>
+    </service>
+    <service name="resultTriageWS">
+      <implementation-class>com.utng.ws.webservice.resultTriageWS</implementation-class>
+    </service>
+    <service name="HistorialPacWS">
+      <implementation-class>com.utng.ws.webservice.HistorialPacWS</implementation-class>
+    </service>
+    <service name="SignosVitalesWS">
+      <implementation-class>com.utng.ws.webservice.SignosVitalesWS</implementation-class>
+    </service>
+    <service name="ReportWS">
+      <implementation-class>com.utng.ws.webservice.ReportWS</implementation-class>
+    </service>
+    <service name="FichaIngresoWS">
+      <implementation-class>com.utng.ws.webservice.FichaIngresoWS</implementation-class>
+    </service>
+  </services>
+  <clients/>
+</jax-ws>
